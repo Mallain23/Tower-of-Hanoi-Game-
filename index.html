@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Tower of Hanoi</title>
+      <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+      <div class="counter"> Move Count: 0</div>
+      <div class="outer-container">
+          <div class="long-col col-1">
+              <div class ="piece-1 position-top js-piece"></div>
+              <div class="piece-2 position-middle js-piece"> </div>
+              <div class="piece-3 position-bottom js-piece"></div>
+          </div>
+          <div class="long-col col-2">
+          </div>
+          <div class="long-col col-3">
+          </div>
+      </div>
+      <div class="game-over game-over-container hide">
+          <img class="game-over flag-image" src="https://media.giphy.com/media/diss1MXzXlA8o/giphy.gif"><br>
+          <button class="game-over game-over-button" type="submit"> Start Over!</button>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
